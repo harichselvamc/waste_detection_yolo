@@ -1,5 +1,6 @@
-train: ../train/images
-val: ../valid/images
+train: /kaggle/input/waste_detection_yolo/train/images
+val: /kaggle/input/waste_detection_yolo/valid/images
+test: /kaggle/input/waste_detection_yolo/test/images  # Optional, if you want to specify the test set
 
 nc: 7
 names: ['glass', 'others', 'paper', 'cardboard', 'foam', 'metal', 'plastic']
